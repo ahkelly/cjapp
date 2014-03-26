@@ -7,6 +7,7 @@
 
 <body>
 <h1>Pricing Test - Not used on production Site (Safe to delete)</h1>
+<!--- // Below will test the discount module for logged in accounts --->
 <cfinvoke component="com.app" method="getPricing" 
 	dsn="#request.DSN_CJA#"
     account_category_id="4"
